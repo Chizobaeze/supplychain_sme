@@ -72,5 +72,5 @@ Then open the local URL shown in the terminal.
 ## Notes
 
 - The dataset is loaded from the Hugging Face `electricsheepafrica/africa-synth-banking-sme-loans-nigeria` dataset.
-- The app currently uses a subset of the dataset (`head(500)`) for faster local loading.
+- The app currently uses a subset of the dataset (`head(1000)`) for faster local loading.
 - The saved model file is `credit_risk_model.pkl`.

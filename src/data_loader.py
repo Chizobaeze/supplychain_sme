@@ -10,6 +10,6 @@ def load_data():
 
     df = ds["train"].to_pandas()
 
-    df = df.head(500)
+    df = df.head(1000)
 
     return df

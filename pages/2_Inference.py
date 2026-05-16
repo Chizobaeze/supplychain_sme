@@ -4,6 +4,18 @@ from src.model import predict_risk
 
 st.set_page_config(layout="wide")
 
+st.markdown("""
+<style>
+section[data-testid="stSidebar"] {
+    background-color: #161B22 !important;
+    color: white !important;
+}
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("🧠 Credit Risk Inference Engine")
 
 st.markdown("""

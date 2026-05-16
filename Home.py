@@ -26,6 +26,11 @@ h1, h2, h3, h4 {
 
 section[data-testid="stSidebar"] {
     background-color: #161B22;
+    color: white;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
 }
 
 </style>
